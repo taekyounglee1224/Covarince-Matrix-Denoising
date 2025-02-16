@@ -7,4 +7,8 @@ Covariance matrix estimation is a cornerstone of financial modeling, underpinnin
 ### 2. Data
 ![image](https://github.com/user-attachments/assets/bfa39eb9-6b4a-4dff-9faf-8cc990055e52)
 
+### 3. Methodology
 
+This paper introduces a diffusion-based framework for denoising covariance matrices, addressing the challenges posed by noisy sample covariance matrices 𝚺", particularly in high-dimensional financial datasets. The framework systematically reduces noise while preserving critical statistical properties such as variances and positive definiteness, ensuring applicability to downstream tasks like portfolio optimization.
+
+The evolution of the covariance matrix 𝚺" is modeled through a stochastic differential equation (SDE): d𝚺 =−𝜆(𝚺 −𝜇)𝑑𝑡+𝛽d𝑊,
